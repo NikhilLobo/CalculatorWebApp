@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  font-family: serif;
+  border: 2px outset black;
+ background-color: #f2f2f2;
+ text-align: center;
+}
+input[type=submit] {
+  width: 30%;
+  padding: 6px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid ;
+  border-radius: 4px;
 }
 
 .App-logo {
@@ -14,14 +26,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(35px + 2vmin);
+  color: black;
+  font-family: serif;
 }
 
 .App-link {
